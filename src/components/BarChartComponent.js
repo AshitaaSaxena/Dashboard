@@ -16,7 +16,7 @@ const AlertFrequency = () => {
       data={[trace]}
       layout={{ title: 'Alert Frequency Over Time', template: 'plotly_dark',
       paper_bgcolor: '#000', // Set background color directly
-      plot_bgcolor: '#001',
+      plot_bgcolor: '#007',
        }}
       useResizeHandler
       style={{ width: "100%", height: "100%" }}

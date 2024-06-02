@@ -1,0 +1,12 @@
+{
+    "functions": {
+      "api/**/*.js": {
+        "runtime": "nodejs14.x",
+        "entryPoint": "api/index.js"
+      }
+    },
+    "builds": [
+        { "src": "src/App.js", "use": "@vercel/node" }
+      ]
+  }
+  
