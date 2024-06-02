@@ -14,11 +14,7 @@ function App() {
       <AlertsByCategory />
       <AlertsBySeverity />
     </div>
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" component={App} />
-      </Routes>
-    </BrowserRouter>
+    
     </React.StrictMode>
   );
 }
