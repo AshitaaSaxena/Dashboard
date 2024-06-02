@@ -1,6 +1,7 @@
 {
   "name": "security-dashboard",
   "version": "0.1.0",
+  "homepage": "https://AshitaaSaxena.github.io/Dashboard",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -8,16 +9,16 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "plotly.js": "^2.33.0",
-    "react-plotlyjs": "^2.6.0",
-    "react-router-dom": "^18.3.1",
+    "react-plotlyjs": "^0.4.4",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "recharts": "^2.12.7",
-    "react-tilt": "^1.0.2",
     "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
